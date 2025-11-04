@@ -1,8 +1,5 @@
-// =====================
-//  Binary Search Problems
-// =====================
 const problems = [
-  // -------------------- HIMANSHU --------------------
+  // ---------- HIMANSHU ----------
   {
     member: "Himanshu",
     title: "Binary Search",
@@ -68,7 +65,7 @@ const problems = [
 }`
   },
 
-  // -------------------- RAUNAK --------------------
+  // ---------- RAUNAK ----------
   {
     member: "Raunak",
     title: "Find Peak Element",
@@ -125,7 +122,7 @@ const problems = [
 }`
   },
 
-  // -------------------- ANUSHKA --------------------
+  // ---------- ANUSHKA ----------
   {
     member: "Anushka",
     title: "Find Smallest Letter Greater Than Target",
@@ -182,7 +179,7 @@ const problems = [
 }`
   },
 
-  // -------------------- ABHISHEK --------------------
+  // ---------- ABHISHEK ----------
   {
     member: "Abhishek",
     title: "Find Minimum in Rotated Sorted Array",
@@ -239,7 +236,7 @@ const problems = [
   }
 ];
 
-// ============= DISPLAY ALL PROBLEMS =============
+// ---------- DISPLAY ALL PROBLEMS ----------
 if (document.getElementById("allProblems")) {
   const container = document.getElementById("allProblems");
   container.innerHTML = problems
@@ -255,7 +252,7 @@ if (document.getElementById("allProblems")) {
     .join("");
 }
 
-// ============= DISPLAY MEMBER PROBLEMS =============
+// ---------- DISPLAY MEMBER PROBLEMS ----------
 if (typeof memberName !== "undefined") {
   const container = document.getElementById("memberProblems");
   const memberProblems = problems.filter((p) => p.member === memberName);
